@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-template",
+  "version": "1.0.0",
+  "description": "A modern, responsive personal portfolio website built with HTML, TailwindCSS, and Vanilla JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "serve": "npx http-server -p 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "tailwindcss",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "frontend"
+  ],
+  "author": "Varun Jinjala",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/portfolio-template/issues"
+  },
+  "homepage": "https://yourusername.github.io/portfolio-template"
+}
